@@ -2,11 +2,9 @@
 const mongoose = require("mongoose");
 
 
-mongoose.connect('mongodb://localhost:27017/Ecommerce', { 
-  useNewUrlParser: true, 
-  useUnifiedTopology: true,
-  // Other options if needed
-});
+mongoose.connect(
+	"mongodb+srv://sunikumar300:fUwEMln433ztXtRK@cluster0.i26j5ed.mongodb.net/Ecommerce?retryWrites=true&w=majority"
+);
 
 // acquiring the connection to check if it is succesfull
 const db = mongoose.connection;
