@@ -1,9 +1,8 @@
 // requiring the library
 const mongoose = require("mongoose");
 
-
 mongoose.connect(
-	"mongodb+srv://sunikumar300:fUwEMln433ztXtRK@cluster0.i26j5ed.mongodb.net/Ecommerce?retryWrites=true&w=majority"
+  "mongodb+srv://placementcell:purbtZfcKTT3tk2C@cluster0.hsbrows.mongodb.net/?retryWrites=true&w=majority"
 );
 
 // acquiring the connection to check if it is succesfull
